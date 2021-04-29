@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chase Mossing</title>
+    <link rel="stylesheet" href="all.css"/>
+    <link rel="stylesheet" href="large.css"/>
+    <link rel="stylesheet" href="medium.css"/>
+    <link rel="stylesheet" href="small.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <a name="top"></a>
+    <div id="site-container">
+        <div id="intro-container">
+            <div id="profile-container">
+                <div id="profile-pic-wrapper"></div>
+                <div id="profile-info-wrapper">
+                    <h1 id="intro-header">Chase <span id="lastname">Mossing</span></h1>
+                    <p id="intro-bio">Computer science student and aspiring software developer. <br><br>Mostly interested in full stack web development (using primarily the .NET framework), but always looking to expand my horizons, most recently in IOT and game development.</p>
+                </div>
+            </div>
+            <nav id="nav-container">
+                <ul>
+                    <li><a href="#service-container"><span>Skills</span></a></li>
+                    <li><a href="#exp-container"><span>Projects</span></a></li>
+                    <!-- <li><a href="#blog-container"><span>Blog</span></a></li> -->
+                    <li><a href="#contact-container"><span>Get In Touch</span></a></li>
+                    <li><a href="Resume.pdf" target="_blank" rel="noopener noreferrer"><span>Resume</span></a></li>
+                    <li><a href="https://github.com/cdmoss" target="_blank" rel="noopener noreferrer"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                    <!-- <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li> -->
+                </ul>
+            </nav>
+            <div id="down-arrow" onclick="leaveIntro()">
+                <i class="fa fa-chevron-down"></i>
+            </div>
+        </div>
+        <nav id="sticky-header">
+            <a id="home" href="#top">
+                <div>
+                    <div></div>
+                </div>
+                <i class="fa fa-home" aria-hidden="true"></i>
+            </a>
+            <a id="nav-collapse"><i class="fa fa-bars" aria-hidden="true" onclick="showNav();"></i></a>
+            <ul id="sticky-nav">
+                <li><a class="int-link" href="#service-container"><span>Skills</span></a></li>
+                <li><a class="int-link" href="#exp-container"><span>Projects</span></a></li>
+                <li><a class="int-link" href="#contact-container"><span>Get In Touch</span></a></li>
+                <li><a href="Resume.pdf" target="_blank" rel="noopener noreferrer"><span>Resume</span></a></li>
+                <li><a class="int-link" href="https://github.com/cdmoss" target="_blank" rel="noopener noreferrer"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                <!-- <li><a class="social-link" href"#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                <li><a class="social-link" href"#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li> -->
+            </ul>
+        </nav>
+        <div id="service-container" class="section-container">
+            <div class="section-header">
+                <h2>Tools I'm Comfortable With</h2>
+            </div>
+            <div id="services-list">
+                <div class="service-block">
+                    <img class="service-img" src="images/dotnet.png" />
+                    <p class="service-title">.NET</p>
+                    <ul class="service-details">
+                        <li>Windows Forms</li>
+                        <li>WPF</li>
+                        <li>Xamarin</li>
+                        <li>Razor Pages</li>
+                        <li>MVC</li>
+                        <li>EF Core (with MariaDB, Sqlite, SQLServer, and Postgres)</li>
+                        <li>Blazor</li>
+                    </ul>
+                </div>
+                <div class="service-block">
+                    <img class="service-img" src="images/htmlcss.png" />
+                    <p class="service-title">HTML & CSS</p>
+                    <ul class="service-details">
+                        <li>Flexbox</li>
+                        <li>Grid</li>
+                        <li>Transitions</li>
+                        <li>Bootstrap</li>
+                    </ul>
+                </div>
+                <div class="service-block">
+                    <img class="service-img" src="images/javascript.jpg" />
+                    <p class="service-title">JavaScript</p>
+                    <ul class="service-details">
+                        <li>DOM Manipulation</li>
+                        <li>Jquery</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="exp-container" class="section-container">
+            <div class="section-header">
+                <h2>Projects I'm a Part of</h1>
+            </div>
+            <div id="experience-jumbotron">
+                    <p class="blurb">Medicine Hat Food Bank Volunteer HR Manager</p>
+                    <div class="project-desc">A project that was spawned from a collaboration between my hometown's college and local food bank. It's comprised of an ASP.NET Core Razor Pages web app, a Xamarin forms mobile app and lots of love. It serves as a way to
+                        <ul>
+                            <li>provide a means of registration to prospective volunteers</li>
+                            <li>keep track of volunteer information,</li>
+                            <li>schedule volunteer shifts,</li>
+                            <li>keep track of time worked by volunteers.</li>
+                        </ul>
+                        <p>It is built with ASP.NET Core, Blazor, Syncfusion, MariaDB, and IdentityServer4. We plan to launch it later this year.</p>
+                    </div>
+                    <div id="project-img-container">
+                        <a class="project-img" href="images/foodbank/login.PNG" target="_blank">
+                            <img src="images/foodbank/login.PNG"/>
+                        </a>
+                        <a class="project-img" href="images/foodbank/register_1.PNG" target="_blank">
+                            <img src="images/foodbank/register_1.PNG"/>
+                        </a>
+                        <a class="project-img" href="images/foodbank/register_2.PNG" target="_blank">
+                            <img src="images/foodbank/register_2.PNG"/>
+                        </a>
+                        <a class="project-img" href="images/foodbank/team.PNG" target="_blank">
+                            <img src="images/foodbank/team.PNG"/>
+                        </a>
+                        <a class="project-img" href="images/foodbank/team_edit.PNG" target="_blank">
+                            <img src="images/foodbank/team_edit.PNG"/>
+                        </a>
+                        <a class="project-img" href="images/foodbank/calendar.PNG" target="_blank">
+                            <img src="images/foodbank/calendar.PNG"/>
+                        </a>
+                        <a class="project-img" href="images/foodbank/timesheet.PNG" target="_blank">
+                            <img src="images/foodbank/timesheet.PNG"/>
+                        </a>
+                    </div>
+            </div>
+        </div>
+        <!-- <div id="blog-container" class="section-container">
+            <div class="section-header">
+                <h2>Blog</h2>
+                <p class="blurb">Tips, tutorials and random musings</p>
+            </div>
+            <div id="embedded-blog">
+                <h1>Blog goes here</h1>
+            </div>
+        </div>-->
+        <div id="contact-container" class="section-container">
+            <div class="section-header">
+                <h2>Think I'm a fit for your project or team?</h2>
+                <p class="blurb">Give me a ring or send a message, I'd love to chat!</p>
+                <div id="contact-info">
+                    <div class="contact-type">
+                        <div class="contact-title">Email</div>
+                        <span>-</span>
+                        <div class="contact-content">cdmossing@gmail.com</div>
+                    </div>
+                    <div class="contact-type">
+                        <div class="contact-title">Discord</div>
+                        <span>-</span>
+                        <div class="contact-content">mawzy#9415</div>
+                    </div>
+                    <div class="contact-type">
+                        <div class="contact-title">Phone</div>
+                        <span>-</span>
+                        <div class="contact-content">+1 (403) 502 1394</div>
+                    </div>
+                </div>
+            </div>
+            <!-- <form id="contact-form">
+                <input placeholder="Name"/>
+                <input placeholder="Email"/>
+                <input placeholder="Subject"/>
+                <textarea placeholder="Message"></textarea>
+                <button type="submit">Send</button>
+            </form> -->
+        </div> 
+    </div>
+    <script src="noframework.waypoints.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+@media screen and (max-width: 791px){
+    #sticky-nav {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 5vh;
+        right: 0;
+        transform: translateX(700px);
+        justify-content: space-evenly;
+        align-items: center;
+        height: 95vh;
+        width: 25vw;
+        background-color: #34b7aa;
+        transition: all 0.5s ease;
+    }
+    
+    #nav-collapse {
+        display: inline;
+        margin: 4rem;
+        cursor: pointer;
+    }
+    #sticky-nav.show {
+        transform: translateX(0);
+    }
+}
