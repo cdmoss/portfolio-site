@@ -362,6 +362,7 @@
     /* Services section styles */
     #services-list{
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         width: 80%;
     }
@@ -376,14 +377,15 @@
         color: var(--text-secondary)
     }
 
-    #service-block {
+    .service-block {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 25%;
+        width: 33%;
+        margin-bottom: 1.5rem;
     }
 
-    #service-block > p {
+    .service-block > p {
         color: var(--text-secondary);
     }
 
@@ -883,17 +885,6 @@
         color: var(--text-secondary)
     }
 
-    .service-block {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 25%;
-    }
-
-    .service-block > p {
-        color: var(--text-secondary);
-    }
-
     .service-title {
         text-align: center;
         font-size: 2rem;
@@ -1373,17 +1364,6 @@
     .service-details {
         font-size: 1.2rem;
         color: var(--text-secondary)
-    }
-
-    #service-block {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 25%;
-    }
-
-    #service-block > p {
-        color: var(--text-secondary);
     }
 
     .service-title {

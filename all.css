@@ -25,11 +25,27 @@ body {
     text-align: center;
 }
 
+.section-container h2 {
+    color: white;
+    text-align: center;
+}
+
 #site-container {
     width: 100%;
     background-attachment: fixed;
     background-size: cover;
     background-image: linear-gradient(30deg, var(--site-primary), black);
+}
+
+.service-img {
+    max-height: 10vh;
+    max-width: 10vw;
+    align-self: center;
+}
+
+.other-service-block {
+    display: flex;
+    align-items: center;
 }
 
 #profile-pic-wrapper {
