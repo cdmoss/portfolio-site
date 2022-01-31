@@ -311,26 +311,6 @@
     }
 
     /* Experience section styles */
-    #experience-jumbotron{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 80%;
-        margin: auto;
-        background-color: rgba(0, 0, 0, 0.8);
-        padding: 2%;
-    }
-
-    .project-desc {
-        color: var(--text-secondary);
-        width: 70%;
-        margin-bottom: 3rem;
-    }
-
-    .project-desc > ul >  li {
-        color: var(--text-secondary)
-    }
 
     #project-img-container {
         display: flex;

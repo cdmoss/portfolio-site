@@ -127,3 +127,7 @@ var contactWaypoint = new Waypoint({
     },
     offset: "30%"
 })
+
+const openProject = () => {
+    
+}
