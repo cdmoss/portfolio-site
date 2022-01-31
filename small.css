@@ -458,9 +458,25 @@
     #intro-img {
         text-align: center;
     }
+    .project-img-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 100%;
+        gap: 1rem;
+    }
+    
 }
 
 @media screen and (max-width: 400px){
+    .project-img-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 100%;
+        gap: .5rem;
+    }
+
     h1 {
         font-size: 0.9rem;
     }

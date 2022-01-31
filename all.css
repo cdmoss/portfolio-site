@@ -23,6 +23,7 @@ body {
 
 .section-header h2, .section-header p {
     text-align: center;
+    margin: 2rem;
 }
 
 .section-container h2 {
@@ -132,6 +133,7 @@ body {
 
 .modal-dialog {
     max-width: 80vw !important;
+    margin: auto !important;
 }
 
 .modal-content {
