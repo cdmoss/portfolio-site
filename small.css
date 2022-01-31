@@ -516,11 +516,16 @@
         font-size: 0.7rem;
     }
 
+    .modal-dialog {
+        max-width: 90vw !important;
+        margin: auto !important;
+    }
+
     .modal-content {
         padding: .5rem;
     }
 
     .modal-title {
-        font-size: 1rem;
+        font-size: .8rem;
     }
 }
