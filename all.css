@@ -49,13 +49,14 @@ body {
     flex-wrap: wrap;
     align-items: center;
     gap: 1rem;
-    margin: auto
+    margin: 0 1rem;
 }
 
-.other {
+/* .other {
     max-height: 100%;
     max-width: 20%;
-}
+    width: 20%;
+} */
 
 #profile-pic-wrapper {
     background-image: url(images/profilepic.jpg);
