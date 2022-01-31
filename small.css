@@ -466,6 +466,13 @@
         gap: 1rem;
     }
     
+    .modal-content {
+        padding: 2rem;
+    }
+
+    .modal-title {
+        font-size: 1rem;
+    }
 }
 
 @media screen and (max-width: 400px){
@@ -507,5 +514,13 @@
 
     #contact-info {
         font-size: 0.7rem;
+    }
+
+    .modal-content {
+        padding: .5rem;
+    }
+
+    .modal-title {
+        font-size: 1rem;
     }
 }
