@@ -7,6 +7,10 @@
 }
 
 @media screen and (min-width: 669px) and (max-width: 1159px){
+    .mobile-link {
+        display: none;
+    }
+
     /* General styles */
     h1 {
         font-size: 1.5rem;

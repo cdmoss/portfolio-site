@@ -7,6 +7,10 @@
 }
 
 @media screen and (min-height: 892px) {
+    .mobile-link {
+        display: none;
+    }
+
     /* General styles */
     h1 {
         font-size: 2rem;
@@ -445,6 +449,7 @@
 
 
 @media screen and (min-width: 1160px) {
+
     /* General styles */
     h1 {
         font-size: 2rem;
