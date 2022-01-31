@@ -64,6 +64,12 @@ body {
     margin-bottom: 3rem;
 }
 
+.project-attr {
+    color: whitesmoke;
+    font-size: small;
+    float: right;
+}
+
 .project-desc > ul >  li {
     color: var(--text-secondary)
 }
@@ -84,13 +90,34 @@ body {
 }
 
 .project-thumb {
+    display: flex;
+    justify-content: center;
     cursor: pointer;
     padding: 1rem .5rem;
     flex-basis: 1;
     width: 33%;
-    border-color: rgb(121, 26, 26);
+    border-color: var(--site-secondary);
     border-style: solid;
     border-width: 1px; 
+}
+
+.project-thumb {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    padding: 1rem .5rem;
+    flex-basis: 1;
+    width: 33%;
+    border-color: var(--site-secondary);
+    border-style: solid;
+    border-width: 1px; 
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.project-thumb:hover {
+    background-color: var(--site-secondary);
+    border-radius: 0;
 }
 
 .project-img-container {

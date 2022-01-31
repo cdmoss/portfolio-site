@@ -22,7 +22,7 @@
                 <div id="profile-pic-wrapper"></div>
                 <div id="profile-info-wrapper">
                     <h1 id="intro-header">Chase <span id="lastname">Mossing</span></h1>
-                    <p id="intro-bio">Computer science student and aspiring software developer. <br><br>Mostly interested in full stack web development (using primarily the .NET framework), but always looking to expand my horizons, most recently in IOT and game development.</p>
+                    <p id="intro-bio">Computer science student and aspiring software developer. <br><br>My main focus is full-stack web and mobile development, but I have experience in desktop development and devops as well. </p>
                 </div>
             </div>
             <nav id="nav-container">
@@ -66,9 +66,8 @@
             <div id="services-list">
                 <div class="service-block">
                     <img class="service-img" src="images/react.png" />
-                    <p class="service-title">React-Native</p>
+                    <p class="service-title">React (Native) + Typescript </p>
                     <ul class="service-details">
-                        <li>With typescript</li>
                         <li>Expo managed and bare workflows</li>
                         <li>Mobx</li>
                         <li>React navigation</li>
@@ -129,12 +128,9 @@
                 <div data-bs-toggle="modal" data-bs-target="#elixr-modal" class="project-thumb">
                     <p class="project-header">Elixr - Marketplace</p>
                 </div>
-                <div data-bs-toggle="modal" data-bs-target="#yaro-modal" class="project-thumb">
-                    <p class="project-header">Yaro</p>
-                </div>
-                <div data-bs-toggle="modal" data-bs-target="#qq-modal" class="project-thumb">
-                    <p class="project-header">Quick quote</p>
-                </div>
+                <!-- <div data-bs-toggle="modal" data-bs-target="#yaro-modal" class="project-thumb">
+                    <p class="project-header">MyVivaplan - Yaro</p>
+                </div> -->
                 <div data-bs-toggle="modal" data-bs-target="#mhfb-modal" class="project-thumb">
                     <p class="project-header">Medicine Hat Food Bank - Volunteer HR Manager</p>
                 </div>
@@ -150,8 +146,10 @@
                         </div>
                         <div class="modal-body">
                             <div class="project-desc">
-                                Click & Push is a company I've been involved with for 8 months as an intern, and provides the Atlas: a mobile app that provides crowdfunded accessibility information to users with accessibility limitations as well as companies and institutions who are interested in improving the accessibility of their spaces
-                                It is built with React Native, and uses Django, Docker and Nginx on the on the backend.
+                                Click & Push is a company I've been involved with for 8 months as an intern, and provides the Atlas: a mobile app that provides crowdfunded accessibility information to users with accessibility limitations as well as companies and institutions who are interested in improving the accessibility of their spaces.
+                                <br><br>
+                                It is built with React Native, and uses Django, Docker, Sqlite, and Nginx on the on the backend.
+                                
                             </div>
                             <div class="project-img-container">
                                 <a class="project-img" href="images/atlas/map.jpg" target="_blank">
@@ -163,6 +161,10 @@
                                 <a class="project-img" href="images/atlas/profile.png" target="_blank">
                                     <img src="images/atlas/profile.png"/>
                                 </a>
+                            </div>
+                            <br><br>
+                            <div class="project-attr">
+                                (All intellectual property is owned by Click & Push - <a target="_blank" href="https://clicknpush.ca/">https://clicknpush.ca/</a>) 
                             </div>
                         </div>
                     </div>
@@ -179,36 +181,48 @@
                         </div>
                         <div class="modal-body">
                             <div class="project-desc">
-                                Elixr is a platform that aims to curate extremely high quality applications t``hat are backed by real, rigorous science. The marketplace, built with ASP.NET Core Razor Pages, is a web app that provides a way for users to purchase applications that have passed the Elixr review process, or submit their own apps for review. It also aims provides a means for potential app publishers and credentialed app reviewers to interact with each other. 
+                                Elixr is a platform that aims to curate extremely high quality applications that are backed by real, rigorous science. The marketplace, built with ASP.NET Core Razor Pages, is a web app that provides a way for users to purchase applications that have passed the Elixr review process, or submit their own apps for review. It also aims provides a means for potential app publishers and credentialed app reviewers to interact with each other. 
                                 <br>
-                                <br>`
-                                The app is still undergoing development and is now live - currently it supports user authentication, the submission of apps, a simple cart system, and allows apps to undergo the review process. 
+                                <br>
+                                The app is still undergoing development and is not live - currently it supports user authentication, the submission of apps, a simple cart system, and allows apps to undergo the review process. 
                             </div>
                             <div class="project-img-container">
-                                <a class="project-img" href="images/atlas/map.jpg" target="_blank">
-                                    <img src="images/atlas/map.jpg"/>
+                                <a class="project-img" href="images/elixr/product.PNG" target="_blank">
+                                    <img src="images/elixr/product.PNG"/>
                                 </a>
-                                <a class="project-img" href="images/atlas/voice.png" target="_blank">
-                                    <img src="images/atlas/voice.png"/>
+                                <a class="project-img" href="images/elixr/upload.PNG" target="_blank">
+                                    <img src="images/elixr/upload.PNG"/>
                                 </a>
-                                <a class="project-img" href="images/atlas/profile.png" target="_blank">
-                                    <img src="images/atlas/profile.png"/>
-                                </a>
+                            </div>
+                            <br><br>
+                            <div class="project-attr">
+                                (All intellectual property is owned by Elixr - <a target="_blank" href="https://www.elixrsim.com/">https://www.elixrsim.com/</a>) 
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="modal fade experience-jumbotron">
-                    <p class="blurb">Medicine Hat Food Bank Volunteer HR Manager</p>
-                    <div class="project-desc">A project that was spawned from a collaboration between my hometown's college and local food bank. It's comprised of an ASP.NET Core Razor Pages web app, a Xamarin forms mobile app and lots of love. It serves as a way to
+            <div class="modal fade" id="mhfb-modal" aria-hidden="true" role="dialog">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" >Medicine Hat Food Bank - Volunteer HR Manager</h5>
+                            <div data-bs-dismiss="modal" aria-label="Close">
+                                <span class="modal-close" aria-hidden="true">&times;</span>
+                            </div>
+                        </div>
+                        <div class="modal-body">
+                    <div class="project-desc">A project that was spawned from a collaboration between my hometown's college and local food bank. It's comprised of an ASP.NET Core Razor Pages web app, a Xamarin forms mobile app and lots of love. It served as a way to
+                        <br>
+                        <br>
                         <ul>
                             <li>provide a means of registration to prospective volunteers</li>
                             <li>keep track of volunteer information,</li>
                             <li>schedule volunteer shifts,</li>
                             <li>keep track of time worked by volunteers.</li>
                         </ul>
-                        <p>It is built with ASP.NET Core, Blazor, Syncfusion, MariaDB, and IdentityServer4. We plan to launch it later this year.</p>
+                        <br>
+                        <p>It was built with ASP.NET Core, Blazor, MariaDB, and IdentityServer4.</p>
                     </div>
                     <div class="project-img-container">
                         <a class="project-img" href="images/foodbank/login.PNG" target="_blank">
@@ -233,7 +247,59 @@
                             <img src="images/foodbank/timesheet.PNG"/>
                         </a>
                     </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+            <!-- <div class="modal fade" id="yaro-modal" aria-hidden="true" role="dialog">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" >MyVivaPlan - Yaro</h5>
+                            <div data-bs-dismiss="modal" aria-label="Close">
+                                <span class="modal-close" aria-hidden="true">&times;</span>
+                            </div>
+                        </div>
+                        <div class="modal-body">
+                            <div class="project-desc">A project that was spawned from a collaboration between my hometown's college and local food bank. It's comprised of an ASP.NET Core Razor Pages web app, a Xamarin forms mobile app and lots of love. It served as a way to
+                                <br>
+                                <br>
+                                <ul>
+                                    <li>provide a means of registration to prospective volunteers</li>
+                                    <li>keep track of volunteer information,</li>
+                                    <li>schedule volunteer shifts,</li>
+                                    <li>keep track of time worked by volunteers.</li>
+                                </ul>
+                                <br>
+                                <p>It was built with ASP.NET Core, Blazor, MariaDB, and IdentityServer4.</p>
+                            </div>
+                            <div class="project-img-container">
+                                <a class="project-img" href="images/foodbank/login.PNG" target="_blank">
+                                    <img src="images/foodbank/login.PNG"/>
+                                </a>
+                                <a class="project-img" href="images/foodbank/register_1.PNG" target="_blank">
+                                    <img src="images/foodbank/register_1.PNG"/>
+                                </a>
+                                <a class="project-img" href="images/foodbank/register_2.PNG" target="_blank">
+                                    <img src="images/foodbank/register_2.PNG"/>
+                                </a>
+                                <a class="project-img" href="images/foodbank/team.PNG" target="_blank">
+                                    <img src="images/foodbank/team.PNG"/>
+                                </a>
+                                <a class="project-img" href="images/foodbank/team_edit.PNG" target="_blank">
+                                    <img src="images/foodbank/team_edit.PNG"/>
+                                </a>
+                                <a class="project-img" href="images/foodbank/calendar.PNG" target="_blank">
+                                    <img src="images/foodbank/calendar.PNG"/>
+                                </a>
+                                <a class="project-img" href="images/foodbank/timesheet.PNG" target="_blank">
+                                    <img src="images/foodbank/timesheet.PNG"/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
         </div>
         <!-- <div id="blog-container" class="section-container">
             <div class="section-header">
