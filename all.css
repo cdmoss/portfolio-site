@@ -38,10 +38,16 @@ body {
     background-image: linear-gradient(30deg, var(--site-primary), black);
 }
 
+.service-title {
+    color: whitesmoke;
+}
+
 .service-img {
     max-height: 10vh;
     max-width: 10vw;
     align-self: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .other-service-block {
