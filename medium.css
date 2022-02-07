@@ -31,11 +31,11 @@
     #intro-container {
         display: grid;
         position: static;
-        grid-template-columns: 7fr 1fr;
+        grid-template-columns: 1fr 7fr;
         grid-template-rows: 12fr 1fr;
         opacity: 1;
-        grid-template-areas: "profile-container nav-container"
-        "down-arrow nav-container";
+        grid-template-areas: "nav-container profile-container"
+        "nav-container down-arrow";
         height: 100vh;
         max-height: 100vh;
         transition: all 0.5s ease-out;
